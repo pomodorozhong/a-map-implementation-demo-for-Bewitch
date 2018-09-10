@@ -1,0 +1,181 @@
+#mapContainer{
+    position: absolute;
+    /* background-color: #cf1e1e; */
+    width: 75px;
+    height: 75px;
+}
+.mapBlock
+{
+    position: absolute;
+}
+
+.screenFrame {
+    position: absolute;
+    background-color: #c3c3c3;
+    border-width: 3px;
+    border-style: solid;
+    width: 375px;
+    height: 667px;
+    overflow: hidden;
+}
+
+.circle{
+    position: absolute;
+    z-index: 2;
+    background-color: #c3c3c3;
+    margin-left: 169px;
+    margin-top: 244px;
+    width: 30px;
+    height: 30px;
+    border-radius:60px;
+    border:3px #252525 solid;
+    box-shadow: 2px 2px 5px #535353;
+}
+.smallCircle{
+    position: absolute;
+    /* z-index: 2; */
+    background-color: #12ac9f;
+    margin-left: 7.5px;
+    margin-top: 15px;
+    width: 10px;
+    height: 10px;
+    border-radius:30px;
+    border:3px #252525 solid;
+    /* box-shadow: 2px 2px 5px #535353; */
+}
+
+.fov {
+    position: absolute;
+    background-color: #8a8a8a;
+    /*z-index: 0;*/
+    /* margin-top: 75px; */
+    width: 375px;
+    height: 525px;
+    /*margin-top: 60px;*/
+    /*border-width: 1px;*/
+    /*border-style: solid;*/
+    overflow: hidden;
+}
+
+.upButton {
+    position: absolute;
+    z-index: 2;
+    /*background-color: green;*/
+    margin-left: 150px;
+    margin-top: 150px;
+    width: 75px;
+    height: 75px;
+    transition: 150ms;
+    -o-transition: 150ms;
+    -moz-transition: 150ms;
+    -webkit-transition: 150ms;
+}
+
+.upButton:hover {
+    /*background-color: #c3c3c3;*/
+    margin-left: 147px;
+    margin-top: 147px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: green;
+}
+
+.downButton {
+    position: absolute;
+    z-index: 2;
+    /*background-color: orange;*/
+    margin-left: 150px;
+    margin-top: 300px;
+    width: 75px;
+    height: 75px;
+    transition: 150ms;
+    -o-transition: 150ms;
+    -moz-transition: 150ms;
+    -webkit-transition: 150ms;
+}
+
+.downButton:hover {
+    /*background-color: #c3c3c3;*/
+    margin-left: 147px;
+    margin-top: 297px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: green;
+}
+
+.leftButton {
+    position: absolute;
+    z-index: 2;
+    margin-left: 75px;
+    margin-top: 225px;
+    width: 75px;
+    height: 75px;
+    transition: 150ms;
+    -o-transition: 150ms;
+    -moz-transition: 150ms;
+    -webkit-transition: 150ms;
+}
+
+.leftButton:hover {
+    margin-left: 72px;
+    margin-top: 222px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: green;
+}
+
+.rightButton {
+    position: absolute;
+    z-index: 2;
+    margin-left: 225px;
+    margin-top: 225px;
+    width: 75px;
+    height: 75px;
+    transition: 150ms;
+    -o-transition: 150ms;
+    -moz-transition: 150ms;
+    -webkit-transition: 150ms;
+}
+
+.rightButton:hover {
+    margin-left: 222px;
+    margin-top: 222px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: green;
+}
+
+.theCanvas {
+    position: absolute;
+    z-index: 1;
+    width: 2625px;
+    height: 3675px;
+    margin-left: -1125px;
+    margin-top: -1575px;
+}
+.standingDrawing{
+    position: absolute;
+    z-index: 3;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 400px;
+}
+
+#characterContainer
+{
+    position: absolute;
+}
+
+html {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
